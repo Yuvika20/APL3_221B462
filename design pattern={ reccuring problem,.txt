@@ -1,0 +1,27 @@
+design pattern={ reccuring problem, standard solution,circumstance}
+problem is same but based on situation our answers can be different .
+
+eg: a car and a key
+sol: dp={ car key , duplicate key ,in campus}
+dp={ car key , break window, in bhopal}
+
+(*)Desgin Pattern is divided in 3 parts:
+ 1) Purpose
+ 2) Class Diagram
+ 3) Code
+
+(*) Singleton Pattern:
+ 
+ 1)Purpose: restrict the instantiation of a class and   ensure that only 1 instance of the class exist.
+ 2) Class Diagram:
+              Singleton
+              Static uniqueInstance
+              Static getInstance()
+  Static uniqueInstance: class variable holds only    one instance of singleton
+ * lazy solution :
+   get instance is called then only obj is made
+ * eager solution :
+
+dp 1 ={ One instance of a class , lazy solution , single threaded environment}
+dp 2 ={ one instance of a class , eager solution , multithreaded}
+
